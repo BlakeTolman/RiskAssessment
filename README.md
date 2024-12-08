@@ -35,10 +35,12 @@ The **Risk Assessment Tool** is a web-based application designed to evaluate and
 
 ## How It Works
 1. **Login**: Admins and brokers authenticate through the login page.
-2. **Admin Management**: Admins can manage user accounts, including brokers and other admins.
-3. **Broker Workflow**:
+   - Login via defualt admin account (username) admin -- (password) adminPass
+3. **Admin Management**: Admins can manage user accounts, including brokers and other admins.
+   - If user_profiles.csv file is empty the program will add a default admin. 
+5. **Broker Workflow**:
    - Select existing clients or input new client data.
    - Generate risk assessments based on personal and vehicle details.
    - Export risk reports as PDF for further use.
-4. **Client Management**: Modify client records with immediate updates to dropdown menus and associated workflows.
+6. **Client Management**: Modify client records with immediate updates to dropdown menus and associated workflows.
 
