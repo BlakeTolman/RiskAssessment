@@ -1,0 +1,61 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+                             https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+    <display-name>RiskAssessmentTool</display-name>
+
+    <!-- Define RiskAssessmentServlet and map it to a URL pattern -->
+    <servlet>
+        <servlet-name>RiskAssessmentServlet</servlet-name>
+        <servlet-class>controller.RiskAssessmentServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet>
+        <servlet-name>ExportPdfServlet</servlet-name>
+        <servlet-class>controller.ExportPdfServlet</servlet-class>
+    </servlet>
+
+    <!-- Define LoginServlet and map it to a URL pattern -->
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>controller.LoginServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <!-- Define LogoutServlet and map it to a URL pattern -->
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>controller.LogoutServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <!-- Define AdminServlet and map it to a URL pattern -->
+    <servlet>
+        <servlet-name>AdminServlet</servlet-name>
+        <servlet-class>controller.AdminServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <!-- Define DeleteAdminServlet and map it to a URL pattern -->
+    <servlet>
+        <servlet-name>DeleteAdminServlet</servlet-name>
+        <servlet-class>controller.DeleteAdminServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <!-- Define DeleteClientServlet and map it to a URL pattern -->
+    <servlet>
+        <servlet-name>DeleteClientServlet</servlet-name>
+        <servlet-class>controller.DeleteClientServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <!-- Define welcome file to indicate the entry point -->
+    <welcome-file-list>
+        <welcome-file>login.jsp</welcome-file>
+    </welcome-file-list>
+
+</web-app>
