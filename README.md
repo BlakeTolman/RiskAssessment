@@ -35,7 +35,7 @@ The **Risk Assessment Tool** is a web-based application designed to evaluate and
 
 ## How It Works
 1. **Login**: Admins and brokers authenticate through the login page.
-   - Login via defualt admin account (username) admin -- (password) adminPass
+   - Login via defualt admin account (username) **admin** -- (password) **adminPass**
 3. **Admin Management**: Admins can manage user accounts, including brokers and other admins.
    - If user_profiles.csv file is empty the program will add a default admin. 
 5. **Broker Workflow**:
