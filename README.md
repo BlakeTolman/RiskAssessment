@@ -28,10 +28,12 @@ The **Risk Assessment Tool** is a web-based application designed to evaluate and
 - Real-time updates to client lists upon modification.
 
 ## Technology Stack
-- **Frontend**: JSP, HTML, CSS, JavaScript.
-- **Backend**: Java Servlets, Spring-based services.
+- **Frontend**: JSP, HTML, CSS.
+- **Backend**: Java Servlets, Java.
+- **Server**: Apache Tomcat.
 - **Data Management**: CSV storage for client and user data.
 - **PDF Generation**: iText library.
+
 
 ## How It Works
 1. **Login**: Admins and brokers authenticate through the login page.
