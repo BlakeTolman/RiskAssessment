@@ -150,9 +150,9 @@ public class RiskAssessmentServlet extends HttpServlet {
 
     private String getRiskDescription(float riskScore) {
         // Generate a risk description based on the calculated risk score
-        if (riskScore >= 1.0 && riskScore <= 1.8) {
+        if (riskScore >= 1.0 && riskScore <= 1.99) {
             return "Low Risk: Eligible for lower premiums due to favorable risk factors.";
-        } else if (riskScore >= 1.9 && riskScore <= 2.9) {
+        } else if (riskScore >= 2.0 && riskScore <= 2.99) {
             return "Medium Risk: Moderate level of risk with standard premiums.";
         } else if (riskScore >= 3.0 && riskScore <= 5.0) {
             return "High Risk: Higher insurance premiums due to significant risk factors.";
